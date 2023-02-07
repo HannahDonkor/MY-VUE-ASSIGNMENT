@@ -15,6 +15,33 @@ a,
   transition: 0.4s;
 }
 
+.main{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+button{
+  padding: 15px 32px;
+  margin: 120px 8px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: rgb(249, 245, 245); 
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(166, 162, 162);
+  color: white;
+  transition: all 0.5s ease;
+  border: 2px solid rgb(246, 184, 184);
+}
+h1{
+  color: white;
+  margin-bottom: 60px;
+  padding-top: 40px;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
